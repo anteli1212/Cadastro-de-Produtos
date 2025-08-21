@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Ubuntu";
+    
+}
+
+#Container{
+    display: flex;
+    padding: 0 15%;
+    justify-content: center; /* centraliza na horizontal */
+    justify-content: space-between;
+}
+
+#Register, #Search{
+    margin-top: 50px;
+    width: 300px;
+    height: 300px;
+}
+
+.Message{
+    margin-bottom: 15px;
+    font-size: 120%;
+    text-align: center;
+    border-radius: 5px;
+    height: 40px;
+    background-color: #F55942;
+    display: flex;
+    justify-content: center; /* centraliza horizontalmente */
+    align-items: center;     /* centraliza verticalmente */
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    border: 1px solid rgba(0, 0, 0, 0.377);
+    border-radius: 5px;
+    margin-bottom: 15px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+button{
+    transition-duration: 0.1s;
+    background-color: #4285F4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover{
+    transition-duration: 0.1s;
+    background-color: #357ae8;
+}
+
+h1{
+    margin: 20px 0 0 30px;
+    font-size: 40px;
+    
+}
+
+h2{
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+#SearchButton{
+    margin-bottom: 15px;
+}
+
+#ShowUsers{
+    overflow-y: scroll;
+    height: 190px;
+    padding: 0 5px 0 0;
+}
+
+.User{
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgba(209, 209, 209, 0.466);
+    border-radius: 8px;
+    height: 95px;
+    padding: 8px;
+    box-shadow: 2px 2px 5px 0 rgb(0, 0, 0, 0.5);
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+    
+    <title>Register Users</title>
+</head>
+<body>
+    <h1>Users Finder</h1>
+
+    <div id="Container">
+
+        <div id="Register">
+            <h2>Add User</h2>
+
+            <p id="Message1"></p>
+
+            <form>
+                <input type="text" placeholder="Username" id="Username"> 
+                <input type="email" placeholder="Email" id="Email"> 
+                <input type="password" placeholder="Password" id="Password"> 
+                <Button id="AddButton">Add User</Button>
+            </form>
+        </div>
+
+        <div id="Search">
+            <h2>Search User</h2>
+            <p id="Message2"></p>
+
+
+            <form>
+                <input type="text" placeholder="Search User" id="SearchName">
+                <button id="SearchButton">Search</button>
+            </form>
+
+            <div id="ShowUsers">
+                <ul id="Cards">
+                </ul>
+
+            </div>
+
+        </div>
+
+    </div>
+</body>
+</html>
